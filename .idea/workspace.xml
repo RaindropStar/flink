@@ -4,17 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3515a5ba-dd3f-4fe9-ae5d-209a1c4837b6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/input/input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/jmzhang/study/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/jmzhang/study/flink/wc/WordCountBatchDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/jmzhang/study/flink/wc/WordCountStreamDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/jmzhang/study/flink/wc/WordCountStreamUnboundedDemo.java" afterDir="false" />
+    <list default="true" id="3515a5ba-dd3f-4fe9-ae5d-209a1c4837b6" name="Changes" comment="add project">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,10 +23,13 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 2
-}]]></component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 2
+}</component>
   <component name="ProjectId" id="2gJ6JB3kOhSPl7U9VsU69TbdcBR" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -47,9 +42,12 @@
     "Application.WordCountStreamDemo (1).executor": "Run",
     "Application.WordCountStreamDemo.executor": "Run",
     "Application.WordCountStreamUnboundedDemo.executor": "Run",
+    "Maven.flink [clean].executor": "Run",
+    "Maven.flink [package].executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/code",
@@ -62,19 +60,6 @@
   <component name="RunManager" selected="Application.WordCountStreamUnboundedDemo">
     <configuration name="WordCountBatchDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="jmzhang.study.flink.wc.WordCountBatchDemo" />
-      <module name="flink" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="jmzhang.study.flink.wc.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="WordCountStreamDemo (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="jmzhang.study.flink.wc.WordCountStreamDemo" />
       <module name="flink" />
       <extension name="coverage">
         <pattern>
@@ -99,7 +84,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WordCountStreamUnboundedDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="WordCountStreamUnboundedDemo" type="Application" factoryName="Application" activateToolWindowBeforeRun="false" temporary="true" nameIsGenerated="true">
+      <option name="INCLUDE_PROVIDED_SCOPE" value="true" />
       <option name="MAIN_CLASS_NAME" value="jmzhang.study.flink.wc.WordCountStreamUnboundedDemo" />
       <module name="flink" />
       <extension name="coverage">
@@ -112,11 +98,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.WordCountBatchDemo" />
+      <item itemvalue="Application.WordCountStreamDemo" />
+      <item itemvalue="Application.WordCountStreamUnboundedDemo" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.WordCountStreamUnboundedDemo" />
         <item itemvalue="Application.WordCountStreamDemo" />
-        <item itemvalue="Application.WordCountStreamDemo (1)" />
         <item itemvalue="Application.WordCountBatchDemo" />
       </list>
     </recent_temporary>
@@ -137,6 +127,30 @@
       <option name="presentableId" value="Default" />
       <updated>1715403261902</updated>
     </task>
+    <task id="LOCAL-00001" summary="add project">
+      <option name="closed" value="true" />
+      <created>1715411688055</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1715411688056</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add project" />
+    <option name="LAST_COMMIT_MESSAGE" value="add project" />
   </component>
 </project>
