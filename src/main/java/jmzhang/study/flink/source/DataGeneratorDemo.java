@@ -20,14 +20,14 @@ public class DataGeneratorDemo {
 
         env.setParallelism(5);
 
+        GeneratorFunction<Long, String> generatorFunction = index -> "Number: " + index;
+
 
         DataGeneratorSource<String> dataGeneratorSource = new DataGeneratorSource<>(
-                new GeneratorFunction<Long, String>() {
-                    @Override
-                    public String map(Long aLong) throws Exception {
-                        return "Number:" + aLong;
-                    }
-                }, Long.MAX_VALUE, RateLimiterStrategy.perSecond(10), Types.STRING
+                generatorFunction,
+                Long.MAX_VALUE,
+                RateLimiterStrategy.perSecond(10),
+                Types.STRING
         );
 
 

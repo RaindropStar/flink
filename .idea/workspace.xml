@@ -4,15 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3515a5ba-dd3f-4fe9-ae5d-209a1c4837b6" name="Changes" comment="添加打包依赖">
-      <change afterPath="$PROJECT_DIR$/src/main/java/jmzhang/study/flink/bean/WaterSensor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/jmzhang/study/flink/env/EnvDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/jmzhang/study/flink/source/CollectionDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/jmzhang/study/flink/source/DataGeneratorDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/jmzhang/study/flink/source/FileSourceDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/jmzhang/study/flink/source/SourceKafka.java" afterDir="false" />
+    <list default="true" id="3515a5ba-dd3f-4fe9-ae5d-209a1c4837b6" name="Changes" comment="新增flink source 代码">
+      <change afterPath="$PROJECT_DIR$/dependency-reduced-pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/jmzhang/study/flink/aggreagte/KeyByDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/jmzhang/study/flink/functions/MapFunctionImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/jmzhang/study/flink/transfrom/FilterDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/jmzhang/study/flink/transfrom/FilterMapDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/jmzhang/study/flink/transfrom/MapDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jmzhang/study/flink/source/DataGeneratorDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jmzhang/study/flink/source/DataGeneratorDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/jmzhang/study/flink/wc/WordCountStreamUnboundedDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jmzhang/study/flink/wc/WordCountStreamUnboundedDemo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -47,17 +48,24 @@
   &quot;associatedIndex&quot;: 2
 }</component>
   <component name="ProjectId" id="2gJ6JB3kOhSPl7U9VsU69TbdcBR" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
     "Application.CollectionDemo.executor": "Run",
     "Application.DataGeneratorDemo.executor": "Run",
     "Application.EnvDemo.executor": "Run",
     "Application.FileSourceDemo.executor": "Run",
+    "Application.FilterDemo.executor": "Run",
+    "Application.FilterMapDemo.executor": "Run",
+    "Application.KeyByDemo.executor": "Run",
+    "Application.MapDemo.executor": "Run",
     "Application.WordCountBatchDemo.executor": "Run",
     "Application.WordCountStreamDemo (1).executor": "Run",
     "Application.WordCountStreamDemo.executor": "Run",
@@ -77,7 +85,13 @@
     "settings.editor.selected.configurable": "MavenSettings"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.DataGeneratorDemo">
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="jmzhang.study.flink.aggreagte" />
+      <recent name="jmzhang.study.flink.transfrom" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.WordCountStreamUnboundedDemo">
     <configuration name="CollectionDemo" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="INCLUDE_PROVIDED_SCOPE" value="true" />
       <option name="MAIN_CLASS_NAME" value="jmzhang.study.flink.source.CollectionDemo" />
@@ -134,6 +148,62 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="FilterDemo" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="INCLUDE_PROVIDED_SCOPE" value="true" />
+      <option name="MAIN_CLASS_NAME" value="jmzhang.study.flink.transfrom.FilterDemo" />
+      <module name="flink" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="jmzhang.study.flink.transfrom.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FilterMapDemo" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="INCLUDE_PROVIDED_SCOPE" value="true" />
+      <option name="MAIN_CLASS_NAME" value="jmzhang.study.flink.transfrom.FilterMapDemo" />
+      <module name="flink" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="jmzhang.study.flink.transfrom.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="KeyByDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="INCLUDE_PROVIDED_SCOPE" value="true" />
+      <option name="MAIN_CLASS_NAME" value="jmzhang.study.flink.aggreagte.KeyByDemo" />
+      <module name="flink" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="jmzhang.study.flink.aggreagte.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MapDemo" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="INCLUDE_PROVIDED_SCOPE" value="true" />
+      <option name="MAIN_CLASS_NAME" value="jmzhang.study.flink.transfrom.MapDemo" />
+      <module name="flink" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="jmzhang.study.flink.transfrom.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="WordCountBatchDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="jmzhang.study.flink.wc.WordCountBatchDemo" />
       <module name="flink" />
@@ -178,15 +248,20 @@
       <item itemvalue="Application.CollectionDemo" />
       <item itemvalue="Application.DataGeneratorDemo" />
       <item itemvalue="Application.FileSourceDemo" />
+      <item itemvalue="Application.FilterDemo" />
+      <item itemvalue="Application.FilterMapDemo" />
+      <item itemvalue="Application.MapDemo" />
       <item itemvalue="Application.EnvDemo" />
+      <item itemvalue="Application.KeyByDemo" />
       <item itemvalue="Application.WordCountBatchDemo" />
       <item itemvalue="Application.WordCountStreamDemo" />
       <item itemvalue="Application.WordCountStreamUnboundedDemo" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.EnvDemo" />
         <item itemvalue="Application.WordCountStreamUnboundedDemo" />
+        <item itemvalue="Application.KeyByDemo" />
+        <item itemvalue="Application.EnvDemo" />
         <item itemvalue="Application.WordCountStreamDemo" />
         <item itemvalue="Application.WordCountBatchDemo" />
       </list>
@@ -224,7 +299,15 @@
       <option name="project" value="LOCAL" />
       <updated>1715423654502</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="新增flink source 代码">
+      <option name="closed" value="true" />
+      <created>1715593664331</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1715593664331</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -239,8 +322,10 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="add project" />
     <MESSAGE value="添加打包依赖" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加打包依赖" />
+    <MESSAGE value="新增flink source 代码" />
+    <option name="LAST_COMMIT_MESSAGE" value="新增flink source 代码" />
   </component>
 </project>
