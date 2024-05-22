@@ -6,10 +6,8 @@ public class WaterSensor {
     public String id;
     public Long ts;
     public Integer vc;
-    //一定要提供一个空参的构造器
-
-    public WaterSensor(String id) {
-        this.id = id;
+    //一定要提供一个空参的构造器,不然sum算子会报错
+    public WaterSensor() {
     }
 
     public WaterSensor(String id, Long ts, Integer vc) {

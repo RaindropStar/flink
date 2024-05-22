@@ -1,13 +1,10 @@
-package jmzhang.study.flink.aggreagte;
+package jmzhang.study.flink.aggregate;
 
 import jmzhang.study.flink.bean.WaterSensor;
-import org.apache.flink.api.common.functions.FlatMapFunction;
 import org.apache.flink.api.java.functions.KeySelector;
 import org.apache.flink.streaming.api.datastream.DataStreamSource;
 import org.apache.flink.streaming.api.datastream.KeyedStream;
-import org.apache.flink.streaming.api.datastream.SingleOutputStreamOperator;
 import org.apache.flink.streaming.api.environment.StreamExecutionEnvironment;
-import org.apache.flink.util.Collector;
 
 public class KeyByDemo {
     public static void main(String[] args) throws Exception {

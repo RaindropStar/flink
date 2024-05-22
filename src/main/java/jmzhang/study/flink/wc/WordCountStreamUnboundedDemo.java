@@ -17,9 +17,9 @@ import org.apache.flink.util.Collector;
 public class WordCountStreamUnboundedDemo {
     public static void main(String[] args) throws Exception {
         // TODO 1. 创建执行环境
-        StreamExecutionEnvironment env = StreamExecutionEnvironment.getExecutionEnvironment();
+//        StreamExecutionEnvironment env = StreamExecutionEnvironment.getExecutionEnvironment();
         //NOTE 测试代码，本地跑查看并行度，需要引入一个依赖
-//        StreamExecutionEnvironment env = StreamExecutionEnvironment.createLocalEnvironmentWithWebUI(new Configuration());
+       StreamExecutionEnvironment env = StreamExecutionEnvironment.createLocalEnvironmentWithWebUI(new Configuration());
 //        // TODO 2. 读取数据 socket
 //        DataStreamSource<String> socketDS = env.socketTextStream("192.168.31.44", 7777);
 
@@ -27,13 +27,13 @@ public class WordCountStreamUnboundedDemo {
 
         //DataGeneratorSource 产生一行四个6位随机字母，并按空格分隔
         GeneratorFunction<Long, String> generatorFunction = index ->
-                RandomStringUtils.randomAlphabetic(6) +" "+RandomStringUtils.randomAlphabetic(6) +" " +RandomStringUtils.randomAlphabetic(6) + " "+ RandomStringUtils.randomAlphabetic(6);
+                RandomStringUtils.randomAlphabetic(2) +" "+RandomStringUtils.randomAlphabetic(2) +" " +RandomStringUtils.randomAlphabetic(2) + " "+ RandomStringUtils.randomAlphabetic(2);
 
 
         DataGeneratorSource<String> dataGeneratorSource = new DataGeneratorSource<>(
                 generatorFunction,
                 Long.MAX_VALUE,
-                RateLimiterStrategy.perSecond(100000),
+                RateLimiterStrategy.perSecond(100),
                 Types.STRING
         );
 
