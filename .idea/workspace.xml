@@ -4,45 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3515a5ba-dd3f-4fe9-ae5d-209a1c4837b6" name="Changes" comment="学习算子相关代码">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/jmzhang/study/flink/aggregate/ReduceDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/jmzhang/study/flink/aggregate/SimpleAggregateDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/jmzhang/study/flink/combine/ConnectDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/jmzhang/study/flink/combine/ConnectKeyByDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/jmzhang/study/flink/combine/UnionDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/jmzhang/study/flink/functions/WaterSensorMapFunction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/jmzhang/study/flink/partition/MyPartitioner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/jmzhang/study/flink/partition/PartitionCustomDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/jmzhang/study/flink/partition/PartitionDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/jmzhang/study/flink/sink/SinkFile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/jmzhang/study/flink/sink/SinkKafka.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/jmzhang/study/flink/sink/SinkKafkaWithKey.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/jmzhang/study/flink/sink/SinkMySQL.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/jmzhang/study/flink/split/SideOutputDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/jmzhang/study/flink/split/SplitByFilterDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/jmzhang/study/flink/transfrom/RichFunctionDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/jmzhang/study/flink/watermark/MyPeriodWatermarkGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/jmzhang/study/flink/watermark/MyPuntuatedWatermarkGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/jmzhang/study/flink/watermark/WaterMarkAllowLatnessDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/jmzhang/study/flink/watermark/WaterMarkCustomesDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/jmzhang/study/flink/watermark/WaterMarkKldenessDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/jmzhang/study/flink/watermark/WaterMarkMonoDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/jmzhang/study/flink/watermark/WaterMarkOutOfOrdernessDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/jmzhang/study/flink/watermark/WindowJoinDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/jmzhang/study/flink/window/CountWindowDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/jmzhang/study/flink/window/TimeWindowDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/jmzhang/study/flink/window/WindowAggregateAndProcessDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/jmzhang/study/flink/window/WindowAggregateDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/jmzhang/study/flink/window/WindowApiDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/jmzhang/study/flink/window/WindowProcessDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/jmzhang/study/flink/window/WindowReduceDemo.java" afterDir="false" />
+    <list default="true" id="3515a5ba-dd3f-4fe9-ae5d-209a1c4837b6" name="Changes" comment="学习窗口及水位线相关代码">
+      <change afterPath="$PROJECT_DIR$/src/main/java/jmzhang/study/flink/process/KeydProcessFunctionTopNDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/jmzhang/study/flink/process/KeydProcessTimerDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/jmzhang/study/flink/process/SideOutputDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/jmzhang/study/flink/process/TopNDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/jmzhang/study/flink/watermark/IntervalJoinDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/jmzhang/study/flink/watermark/IntervalJoinWithLateDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/jmzhang/study/flink/aggreagte/KeyByDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jmzhang/study/flink/aggregate/KeyByDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/jmzhang/study/flink/bean/WaterSensor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jmzhang/study/flink/bean/WaterSensor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/jmzhang/study/flink/wc/WordCountStreamUnboundedDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jmzhang/study/flink/wc/WordCountStreamUnboundedDemo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,7 +64,23 @@
     "Application.FileSourceDemo.executor": "Run",
     "Application.FilterDemo.executor": "Run",
     "Application.FilterMapDemo.executor": "Run",
+    "Application.IntervalJoinDemo.executor": "Run",
+    "Application.IntervalJoinWithLateDemo.executor": "Run",
     "Application.KeyByDemo.executor": "Run",
+    "Application.KeydProcessFunctionTopNDemo (1).executor": "Run",
+    "Application.KeydProcessFunctionTopNDemo (2).executor": "Debug",
+    "Application.KeydProcessFunctionTopNDemo (3).executor": "Run",
+    "Application.KeydProcessFunctionTopNDemo (4).executor": "Run",
+    "Application.KeydProcessFunctionTopNDemo (5).executor": "Run",
+    "Application.KeydProcessFunctionTopNDemo (6).executor": "Run",
+    "Application.KeydProcessFunctionTopNDemo.executor": "Run",
+    "Application.KeydProcessTimerDemo (1).executor": "Run",
+    "Application.KeydProcessTimerDemo (2).executor": "Run",
+    "Application.KeydProcessTimerDemo (3).executor": "Run",
+    "Application.KeydProcessTimerDemo (4).executor": "Run",
+    "Application.KeydProcessTimerDemo (5).executor": "Run",
+    "Application.KeydProcessTimerDemo (6).executor": "Run",
+    "Application.KeydProcessTimerDemo.executor": "Run",
     "Application.MapDemo.executor": "Run",
     "Application.PartitionDemo.executor": "Run",
     "Application.ReduceDemo.executor": "Run",
@@ -110,6 +95,13 @@
     "Application.SplitByFilterDemo.executor": "Run",
     "Application.TimeWindowDemo (1).executor": "Run",
     "Application.TimeWindowDemo.executor": "Run",
+    "Application.TopNDemo (1).executor": "Run",
+    "Application.TopNDemo (2).executor": "Run",
+    "Application.TopNDemo (3).executor": "Run",
+    "Application.TopNDemo (4).executor": "Run",
+    "Application.TopNDemo (5).executor": "Run",
+    "Application.TopNDemo (6).executor": "Run",
+    "Application.TopNDemo.executor": "Run",
     "Application.UnionDemo.executor": "Run",
     "Application.WaterMarkAllowLatnessDemo (1).executor": "Run",
     "Application.WaterMarkAllowLatnessDemo (2).executor": "Run",
@@ -155,14 +147,14 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="jmzhang.study.flink.process" />
       <recent name="jmzhang.study.flink.watermark" />
       <recent name="jmzhang.study.flink.window" />
       <recent name="jmzhang.study.flink.sink" />
       <recent name="jmzhang.study.flink.split" />
-      <recent name="jmzhang.study.flink.partition" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.WindowJoinDemo">
+  <component name="RunManager" selected="Application.SideOutputDemo">
     <configuration name="CollectionDemo" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="INCLUDE_PROVIDED_SCOPE" value="true" />
       <option name="MAIN_CLASS_NAME" value="jmzhang.study.flink.source.CollectionDemo" />
@@ -261,6 +253,127 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="IntervalJoinDemo" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="INCLUDE_PROVIDED_SCOPE" value="true" />
+      <option name="MAIN_CLASS_NAME" value="jmzhang.study.flink.watermark.IntervalJoinDemo" />
+      <module name="flink" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="jmzhang.study.flink.watermark.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IntervalJoinWithLateDemo" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="INCLUDE_PROVIDED_SCOPE" value="true" />
+      <option name="MAIN_CLASS_NAME" value="jmzhang.study.flink.watermark.IntervalJoinWithLateDemo" />
+      <module name="flink" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="jmzhang.study.flink.watermark.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="KeydProcessFunctionTopNDemo (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="jmzhang.study.flink.process.KeydProcessFunctionTopNDemo" />
+      <module name="flink" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="jmzhang.study.flink.process.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="KeydProcessFunctionTopNDemo (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="jmzhang.study.flink.process.KeydProcessFunctionTopNDemo" />
+      <module name="flink" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="jmzhang.study.flink.process.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="KeydProcessFunctionTopNDemo (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="jmzhang.study.flink.process.KeydProcessFunctionTopNDemo" />
+      <module name="flink" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="jmzhang.study.flink.process.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="KeydProcessFunctionTopNDemo (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="jmzhang.study.flink.process.KeydProcessFunctionTopNDemo" />
+      <module name="flink" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="jmzhang.study.flink.process.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="KeydProcessFunctionTopNDemo (6)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="jmzhang.study.flink.process.KeydProcessFunctionTopNDemo" />
+      <module name="flink" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="jmzhang.study.flink.process.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="KeydProcessFunctionTopNDemo" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="INCLUDE_PROVIDED_SCOPE" value="true" />
+      <option name="MAIN_CLASS_NAME" value="jmzhang.study.flink.process.KeydProcessFunctionTopNDemo" />
+      <module name="flink" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="jmzhang.study.flink.process.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="KeydProcessTimerDemo" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="INCLUDE_PROVIDED_SCOPE" value="true" />
+      <option name="MAIN_CLASS_NAME" value="jmzhang.study.flink.process.KeydProcessTimerDemo" />
+      <module name="flink" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="jmzhang.study.flink.process.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MapDemo" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="INCLUDE_PROVIDED_SCOPE" value="true" />
       <option name="MAIN_CLASS_NAME" value="jmzhang.study.flink.transfrom.MapDemo" />
@@ -310,6 +423,20 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="jmzhang.study.flink.transfrom.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SideOutputDemo" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="INCLUDE_PROVIDED_SCOPE" value="true" />
+      <option name="MAIN_CLASS_NAME" value="jmzhang.study.flink.process.SideOutputDemo" />
+      <module name="flink" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="jmzhang.study.flink.process.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -373,6 +500,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TopNDemo" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="INCLUDE_PROVIDED_SCOPE" value="true" />
+      <option name="MAIN_CLASS_NAME" value="jmzhang.study.flink.process.TopNDemo" />
+      <module name="flink" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="jmzhang.study.flink.process.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="UnionDemo" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="INCLUDE_PROVIDED_SCOPE" value="true" />
       <option name="MAIN_CLASS_NAME" value="jmzhang.study.flink.combine.UnionDemo" />
@@ -380,32 +521,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="jmzhang.study.flink.combine.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="WaterMarkAllowLatnessDemo (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="jmzhang.study.flink.watermark.WaterMarkAllowLatnessDemo" />
-      <module name="flink" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="jmzhang.study.flink.watermark.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="WaterMarkAllowLatnessDemo (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="jmzhang.study.flink.watermark.WaterMarkAllowLatnessDemo" />
-      <module name="flink" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="jmzhang.study.flink.watermark.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -497,19 +612,6 @@
     <configuration name="WaterMarkMonoDemo" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="INCLUDE_PROVIDED_SCOPE" value="true" />
       <option name="MAIN_CLASS_NAME" value="jmzhang.study.flink.watermark.WaterMarkMonoDemo" />
-      <module name="flink" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="jmzhang.study.flink.watermark.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="WaterMarkOutOfOrdernessDemo (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="jmzhang.study.flink.watermark.WaterMarkOutOfOrdernessDemo" />
       <module name="flink" />
       <extension name="coverage">
         <pattern>
@@ -646,6 +748,12 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.SideOutputDemo" />
+      <item itemvalue="Application.KeydProcessFunctionTopNDemo" />
+      <item itemvalue="Application.IntervalJoinDemo" />
+      <item itemvalue="Application.IntervalJoinWithLateDemo" />
+      <item itemvalue="Application.KeydProcessTimerDemo" />
+      <item itemvalue="Application.TopNDemo" />
       <item itemvalue="Application.WindowJoinDemo" />
       <item itemvalue="Application.ConnectKeyByDemo" />
       <item itemvalue="Application.CountWindowDemo" />
@@ -673,15 +781,19 @@
       <item itemvalue="Application.MapDemo" />
       <item itemvalue="Application.ReduceDemo" />
       <item itemvalue="Application.SimpleAggregateDemo" />
-      <item itemvalue="Application.WaterMarkAllowLatnessDemo (1)" />
-      <item itemvalue="Application.WaterMarkAllowLatnessDemo (2)" />
-      <item itemvalue="Application.WaterMarkOutOfOrdernessDemo (1)" />
+      <item itemvalue="Application.KeydProcessFunctionTopNDemo (3)" />
+      <item itemvalue="Application.KeydProcessFunctionTopNDemo (4)" />
+      <item itemvalue="Application.KeydProcessFunctionTopNDemo (5)" />
+      <item itemvalue="Application.KeydProcessFunctionTopNDemo (6)" />
+      <item itemvalue="Application.KeydProcessFunctionTopNDemo (2)" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.WaterMarkAllowLatnessDemo (2)" />
-        <item itemvalue="Application.WaterMarkAllowLatnessDemo (1)" />
-        <item itemvalue="Application.WaterMarkOutOfOrdernessDemo (1)" />
+        <item itemvalue="Application.KeydProcessFunctionTopNDemo (6)" />
+        <item itemvalue="Application.KeydProcessFunctionTopNDemo (5)" />
+        <item itemvalue="Application.KeydProcessFunctionTopNDemo (4)" />
+        <item itemvalue="Application.KeydProcessFunctionTopNDemo (3)" />
+        <item itemvalue="Application.KeydProcessFunctionTopNDemo (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -733,7 +845,15 @@
       <option name="project" value="LOCAL" />
       <updated>1715612773086</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="学习窗口及水位线相关代码">
+      <option name="closed" value="true" />
+      <created>1716353075017</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1716353075017</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -753,6 +873,7 @@
     <MESSAGE value="添加打包依赖" />
     <MESSAGE value="新增flink source 代码" />
     <MESSAGE value="学习算子相关代码" />
-    <option name="LAST_COMMIT_MESSAGE" value="学习算子相关代码" />
+    <MESSAGE value="学习窗口及水位线相关代码" />
+    <option name="LAST_COMMIT_MESSAGE" value="学习窗口及水位线相关代码" />
   </component>
 </project>
