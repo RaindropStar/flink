@@ -62,3 +62,17 @@ public class SideOutputDemo {
 }
 
 
+/**
+ * 托管状态（Managed state） 和原始状态（Raw State）
+ * 托管状态由Flink统一管理
+ * 原始状态 自己管理
+ *
+ * 托管状态分为两大类
+ * 算子状态（Operator State）和 按键分区状态（Keyed State）
+ *
+ * 算子作用范围限定为当前的算子任务实例
+ *
+ * 按键分区状态
+ *
+ */
+
